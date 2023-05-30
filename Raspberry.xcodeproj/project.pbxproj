@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA3F36992A1E381E003925C5 /* RaspberryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36982A1E381E003925C5 /* RaspberryApp.swift */; };
+		BA3F369B2A1E381E003925C5 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F369A2A1E381E003925C5 /* Persistence.swift */; };
+		BA3F369E2A1E381E003925C5 /* Raspberry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA3F369C2A1E381E003925C5 /* Raspberry.xcdatamodeld */; };
+		BA3F36A02A1E381E003925C5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F369F2A1E381E003925C5 /* HomeView.swift */; };
+		BA3F36A22A1E381F003925C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3F36A12A1E381F003925C5 /* Assets.xcassets */; };
+		BA3F36A62A1E381F003925C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3F36A52A1E381F003925C5 /* Preview Assets.xcassets */; };
+		BA3F36B02A1E3820003925C5 /* RaspberryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36AF2A1E3820003925C5 /* RaspberryTests.swift */; };
+		BA3F36BA2A1E3820003925C5 /* RaspberryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36B92A1E3820003925C5 /* RaspberryUITests.swift */; };
+		BA3F36BC2A1E3820003925C5 /* RaspberryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36BB2A1E3820003925C5 /* RaspberryUITestsLaunchTests.swift */; };
+		BA3F36CB2A1E3B1F003925C5 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36CA2A1E3B1F003925C5 /* HomeInteractor.swift */; };
+		BA3F36CD2A1E3B2E003925C5 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36CC2A1E3B2E003925C5 /* HomePresenter.swift */; };
+		BA3F36D42A1E43A5003925C5 /* HashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36D32A1E43A5003925C5 /* HashView.swift */; };
+		BA3F36D72A1E43B8003925C5 /* HashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36D62A1E43B8003925C5 /* HashViewModel.swift */; };
+		BA3F36D92A1E43C1003925C5 /* HashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36D82A1E43C1003925C5 /* HashInteractor.swift */; };
+		BA3F36DB2A1E43D1003925C5 /* HashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36DA2A1E43D1003925C5 /* HashPresenter.swift */; };
+		BA3F36DD2A1E43E8003925C5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36DC2A1E43E8003925C5 /* HomeViewModel.swift */; };
+		BA3F36E12A1E44C2003925C5 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36E02A1E44C2003925C5 /* UserModel.swift */; };
+		BA3F36F72A1E51C5003925C5 /* PresentingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36F62A1E51C5003925C5 /* PresentingRouter.swift */; };
+		BA3F37032A1F58D7003925C5 /* SheetModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F37002A1F58D7003925C5 /* SheetModifier.swift */; };
+		BA3F37042A1F58D7003925C5 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F37012A1F58D7003925C5 /* Router.swift */; };
+		BA3F37052A1F58D7003925C5 /* NavigationModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F37022A1F58D7003925C5 /* NavigationModifier.swift */; };
+		BA6650322A20C1DA003DBA75 /* WelcomeHashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6650312A20C1DA003DBA75 /* WelcomeHashView.swift */; };
+		BA6650352A20C2E2003DBA75 /* ProgressHashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6650342A20C2E2003DBA75 /* ProgressHashView.swift */; };
+		BA6650372A24E4AA003DBA75 /* BlockHashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6650362A24E4AA003DBA75 /* BlockHashView.swift */; };
+		BA6650392A24F795003DBA75 /* DoneHashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6650382A24F795003DBA75 /* DoneHashView.swift */; };
+		BA66503B2A255964003DBA75 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66503A2A255964003DBA75 /* PrimaryButton.swift */; };
+		BA6650632A255B00003DBA75 /* WiFiInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6650462A255AFF003DBA75 /* WiFiInteractor.swift */; };
+		BA6650642A255B00003DBA75 /* WiFiPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6650472A255AFF003DBA75 /* WiFiPresenter.swift */; };
+		BA6650652A255B00003DBA75 /* WiFiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6650482A255AFF003DBA75 /* WiFiView.swift */; };
+		BA6650662A255B00003DBA75 /* WiFiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6650492A255AFF003DBA75 /* WiFiViewModel.swift */; };
+		BA66506B2A255B00003DBA75 /* JailbreakInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6650502A255AFF003DBA75 /* JailbreakInteractor.swift */; };
+		BA66506C2A255B00003DBA75 /* JailbreakPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6650512A255AFF003DBA75 /* JailbreakPresenter.swift */; };
+		BA66506D2A255B00003DBA75 /* JailbreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6650522A255AFF003DBA75 /* JailbreakView.swift */; };
+		BA66506E2A255B00003DBA75 /* JailbreakViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6650532A255AFF003DBA75 /* JailbreakViewModel.swift */; };
+		BA6650732A255B00003DBA75 /* BatteryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66505A2A255B00003DBA75 /* BatteryInteractor.swift */; };
+		BA6650742A255B00003DBA75 /* BatteryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66505B2A255B00003DBA75 /* BatteryPresenter.swift */; };
+		BA6650752A255B00003DBA75 /* BatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66505C2A255B00003DBA75 /* BatteryView.swift */; };
+		BA6650762A255B00003DBA75 /* BatteryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66505D2A255B00003DBA75 /* BatteryViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA3F36AC2A1E3820003925C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA3F368D2A1E381E003925C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA3F36942A1E381E003925C5;
+			remoteInfo = Raspberry;
+		};
+		BA3F36B62A1E3820003925C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA3F368D2A1E381E003925C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA3F36942A1E381E003925C5;
+			remoteInfo = Raspberry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA3F36952A1E381E003925C5 /* Raspberry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raspberry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3F36982A1E381E003925C5 /* RaspberryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaspberryApp.swift; sourceTree = "<group>"; };
+		BA3F369A2A1E381E003925C5 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BA3F369D2A1E381E003925C5 /* Raspberry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Raspberry.xcdatamodel; sourceTree = "<group>"; };
+		BA3F369F2A1E381E003925C5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BA3F36A12A1E381F003925C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA3F36A32A1E381F003925C5 /* Raspberry.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Raspberry.entitlements; sourceTree = "<group>"; };
+		BA3F36A52A1E381F003925C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA3F36AB2A1E3820003925C5 /* RaspberryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaspberryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3F36AF2A1E3820003925C5 /* RaspberryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaspberryTests.swift; sourceTree = "<group>"; };
+		BA3F36B52A1E3820003925C5 /* RaspberryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaspberryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA3F36B92A1E3820003925C5 /* RaspberryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaspberryUITests.swift; sourceTree = "<group>"; };
+		BA3F36BB2A1E3820003925C5 /* RaspberryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaspberryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BA3F36CA2A1E3B1F003925C5 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		BA3F36CC2A1E3B2E003925C5 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		BA3F36D32A1E43A5003925C5 /* HashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashView.swift; sourceTree = "<group>"; };
+		BA3F36D62A1E43B8003925C5 /* HashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashViewModel.swift; sourceTree = "<group>"; };
+		BA3F36D82A1E43C1003925C5 /* HashInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashInteractor.swift; sourceTree = "<group>"; };
+		BA3F36DA2A1E43D1003925C5 /* HashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashPresenter.swift; sourceTree = "<group>"; };
+		BA3F36DC2A1E43E8003925C5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		BA3F36E02A1E44C2003925C5 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		BA3F36F62A1E51C5003925C5 /* PresentingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentingRouter.swift; sourceTree = "<group>"; };
+		BA3F37002A1F58D7003925C5 /* SheetModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheetModifier.swift; sourceTree = "<group>"; };
+		BA3F37012A1F58D7003925C5 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		BA3F37022A1F58D7003925C5 /* NavigationModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationModifier.swift; sourceTree = "<group>"; };
+		BA6650312A20C1DA003DBA75 /* WelcomeHashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeHashView.swift; sourceTree = "<group>"; };
+		BA6650342A20C2E2003DBA75 /* ProgressHashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressHashView.swift; sourceTree = "<group>"; };
+		BA6650362A24E4AA003DBA75 /* BlockHashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockHashView.swift; sourceTree = "<group>"; };
+		BA6650382A24F795003DBA75 /* DoneHashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneHashView.swift; sourceTree = "<group>"; };
+		BA66503A2A255964003DBA75 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		BA6650462A255AFF003DBA75 /* WiFiInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WiFiInteractor.swift; sourceTree = "<group>"; };
+		BA6650472A255AFF003DBA75 /* WiFiPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WiFiPresenter.swift; sourceTree = "<group>"; };
+		BA6650482A255AFF003DBA75 /* WiFiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WiFiView.swift; sourceTree = "<group>"; };
+		BA6650492A255AFF003DBA75 /* WiFiViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WiFiViewModel.swift; sourceTree = "<group>"; };
+		BA6650502A255AFF003DBA75 /* JailbreakInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JailbreakInteractor.swift; sourceTree = "<group>"; };
+		BA6650512A255AFF003DBA75 /* JailbreakPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JailbreakPresenter.swift; sourceTree = "<group>"; };
+		BA6650522A255AFF003DBA75 /* JailbreakView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JailbreakView.swift; sourceTree = "<group>"; };
+		BA6650532A255AFF003DBA75 /* JailbreakViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JailbreakViewModel.swift; sourceTree = "<group>"; };
+		BA66505A2A255B00003DBA75 /* BatteryInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryInteractor.swift; sourceTree = "<group>"; };
+		BA66505B2A255B00003DBA75 /* BatteryPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryPresenter.swift; sourceTree = "<group>"; };
+		BA66505C2A255B00003DBA75 /* BatteryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryView.swift; sourceTree = "<group>"; };
+		BA66505D2A255B00003DBA75 /* BatteryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA3F36922A1E381E003925C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3F36A82A1E3820003925C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3F36B22A1E3820003925C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA3F368C2A1E381E003925C5 = {
+			isa = PBXGroup;
+			children = (
+				BA3F36972A1E381E003925C5 /* Raspberry */,
+				BA3F36AE2A1E3820003925C5 /* RaspberryTests */,
+				BA3F36B82A1E3820003925C5 /* RaspberryUITests */,
+				BA3F36962A1E381E003925C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA3F36962A1E381E003925C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA3F36952A1E381E003925C5 /* Raspberry.app */,
+				BA3F36AB2A1E3820003925C5 /* RaspberryTests.xctest */,
+				BA3F36B52A1E3820003925C5 /* RaspberryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA3F36972A1E381E003925C5 /* Raspberry */ = {
+			isa = PBXGroup;
+			children = (
+				BA3F36982A1E381E003925C5 /* RaspberryApp.swift */,
+				BA3F369A2A1E381E003925C5 /* Persistence.swift */,
+				BA3F36F62A1E51C5003925C5 /* PresentingRouter.swift */,
+				BA66503C2A25596E003DBA75 /* Design */,
+				BA3F36D22A1E4390003925C5 /* Home */,
+				BA66504F2A255AFF003DBA75 /* Jailbreak */,
+				BA6650592A255B00003DBA75 /* Battery */,
+				BA3F36D52A1E43AA003925C5 /* Hash */,
+				BA6650452A255AFF003DBA75 /* WiFi */,
+				BA3F36DE2A1E4492003925C5 /* Models */,
+				BA3F36DF2A1E4496003925C5 /* Services */,
+				BA3F36A12A1E381F003925C5 /* Assets.xcassets */,
+				BA3F36A32A1E381F003925C5 /* Raspberry.entitlements */,
+				BA3F369C2A1E381E003925C5 /* Raspberry.xcdatamodeld */,
+				BA3F36A42A1E381F003925C5 /* Preview Content */,
+			);
+			path = Raspberry;
+			sourceTree = "<group>";
+		};
+		BA3F36A42A1E381F003925C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA3F36A52A1E381F003925C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA3F36AE2A1E3820003925C5 /* RaspberryTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA3F36AF2A1E3820003925C5 /* RaspberryTests.swift */,
+			);
+			path = RaspberryTests;
+			sourceTree = "<group>";
+		};
+		BA3F36B82A1E3820003925C5 /* RaspberryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA3F36B92A1E3820003925C5 /* RaspberryUITests.swift */,
+				BA3F36BB2A1E3820003925C5 /* RaspberryUITestsLaunchTests.swift */,
+			);
+			path = RaspberryUITests;
+			sourceTree = "<group>";
+		};
+		BA3F36D22A1E4390003925C5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BA3F369F2A1E381E003925C5 /* HomeView.swift */,
+				BA3F36DC2A1E43E8003925C5 /* HomeViewModel.swift */,
+				BA3F36CA2A1E3B1F003925C5 /* HomeInteractor.swift */,
+				BA3F36CC2A1E3B2E003925C5 /* HomePresenter.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BA3F36D52A1E43AA003925C5 /* Hash */ = {
+			isa = PBXGroup;
+			children = (
+				BA3F36D32A1E43A5003925C5 /* HashView.swift */,
+				BA3F36D62A1E43B8003925C5 /* HashViewModel.swift */,
+				BA3F36D82A1E43C1003925C5 /* HashInteractor.swift */,
+				BA3F36DA2A1E43D1003925C5 /* HashPresenter.swift */,
+				BA6650332A20C213003DBA75 /* Views */,
+			);
+			path = Hash;
+			sourceTree = "<group>";
+		};
+		BA3F36DE2A1E4492003925C5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BA3F36E02A1E44C2003925C5 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BA3F36DF2A1E4496003925C5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BA3F37012A1F58D7003925C5 /* Router.swift */,
+				BA3F37002A1F58D7003925C5 /* SheetModifier.swift */,
+				BA3F37022A1F58D7003925C5 /* NavigationModifier.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BA6650332A20C213003DBA75 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA6650312A20C1DA003DBA75 /* WelcomeHashView.swift */,
+				BA6650362A24E4AA003DBA75 /* BlockHashView.swift */,
+				BA6650342A20C2E2003DBA75 /* ProgressHashView.swift */,
+				BA6650382A24F795003DBA75 /* DoneHashView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA66503C2A25596E003DBA75 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				BA66503E2A25597D003DBA75 /* Button */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		BA66503E2A25597D003DBA75 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				BA66503A2A255964003DBA75 /* PrimaryButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		BA6650452A255AFF003DBA75 /* WiFi */ = {
+			isa = PBXGroup;
+			children = (
+				BA6650482A255AFF003DBA75 /* WiFiView.swift */,
+				BA6650492A255AFF003DBA75 /* WiFiViewModel.swift */,
+				BA6650462A255AFF003DBA75 /* WiFiInteractor.swift */,
+				BA6650472A255AFF003DBA75 /* WiFiPresenter.swift */,
+			);
+			path = WiFi;
+			sourceTree = "<group>";
+		};
+		BA66504F2A255AFF003DBA75 /* Jailbreak */ = {
+			isa = PBXGroup;
+			children = (
+				BA6650522A255AFF003DBA75 /* JailbreakView.swift */,
+				BA6650532A255AFF003DBA75 /* JailbreakViewModel.swift */,
+				BA6650502A255AFF003DBA75 /* JailbreakInteractor.swift */,
+				BA6650512A255AFF003DBA75 /* JailbreakPresenter.swift */,
+			);
+			path = Jailbreak;
+			sourceTree = "<group>";
+		};
+		BA6650592A255B00003DBA75 /* Battery */ = {
+			isa = PBXGroup;
+			children = (
+				BA66505C2A255B00003DBA75 /* BatteryView.swift */,
+				BA66505D2A255B00003DBA75 /* BatteryViewModel.swift */,
+				BA66505A2A255B00003DBA75 /* BatteryInteractor.swift */,
+				BA66505B2A255B00003DBA75 /* BatteryPresenter.swift */,
+			);
+			path = Battery;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA3F36942A1E381E003925C5 /* Raspberry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3F36BF2A1E3820003925C5 /* Build configuration list for PBXNativeTarget "Raspberry" */;
+			buildPhases = (
+				BA3F36912A1E381E003925C5 /* Sources */,
+				BA3F36922A1E381E003925C5 /* Frameworks */,
+				BA3F36932A1E381E003925C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Raspberry;
+			productName = Raspberry;
+			productReference = BA3F36952A1E381E003925C5 /* Raspberry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA3F36AA2A1E3820003925C5 /* RaspberryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3F36C22A1E3820003925C5 /* Build configuration list for PBXNativeTarget "RaspberryTests" */;
+			buildPhases = (
+				BA3F36A72A1E3820003925C5 /* Sources */,
+				BA3F36A82A1E3820003925C5 /* Frameworks */,
+				BA3F36A92A1E3820003925C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA3F36AD2A1E3820003925C5 /* PBXTargetDependency */,
+			);
+			name = RaspberryTests;
+			productName = RaspberryTests;
+			productReference = BA3F36AB2A1E3820003925C5 /* RaspberryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA3F36B42A1E3820003925C5 /* RaspberryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3F36C52A1E3820003925C5 /* Build configuration list for PBXNativeTarget "RaspberryUITests" */;
+			buildPhases = (
+				BA3F36B12A1E3820003925C5 /* Sources */,
+				BA3F36B22A1E3820003925C5 /* Frameworks */,
+				BA3F36B32A1E3820003925C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA3F36B72A1E3820003925C5 /* PBXTargetDependency */,
+			);
+			name = RaspberryUITests;
+			productName = RaspberryUITests;
+			productReference = BA3F36B52A1E3820003925C5 /* RaspberryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA3F368D2A1E381E003925C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BA3F36942A1E381E003925C5 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					BA3F36AA2A1E3820003925C5 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = BA3F36942A1E381E003925C5;
+					};
+					BA3F36B42A1E3820003925C5 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = BA3F36942A1E381E003925C5;
+					};
+				};
+			};
+			buildConfigurationList = BA3F36902A1E381E003925C5 /* Build configuration list for PBXProject "Raspberry" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA3F368C2A1E381E003925C5;
+			productRefGroup = BA3F36962A1E381E003925C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA3F36942A1E381E003925C5 /* Raspberry */,
+				BA3F36AA2A1E3820003925C5 /* RaspberryTests */,
+				BA3F36B42A1E3820003925C5 /* RaspberryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA3F36932A1E381E003925C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3F36A62A1E381F003925C5 /* Preview Assets.xcassets in Resources */,
+				BA3F36A22A1E381F003925C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3F36A92A1E3820003925C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3F36B32A1E3820003925C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA3F36912A1E381E003925C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6650652A255B00003DBA75 /* WiFiView.swift in Sources */,
+				BA6650372A24E4AA003DBA75 /* BlockHashView.swift in Sources */,
+				BA3F36CD2A1E3B2E003925C5 /* HomePresenter.swift in Sources */,
+				BA6650632A255B00003DBA75 /* WiFiInteractor.swift in Sources */,
+				BA6650352A20C2E2003DBA75 /* ProgressHashView.swift in Sources */,
+				BA3F36992A1E381E003925C5 /* RaspberryApp.swift in Sources */,
+				BA6650322A20C1DA003DBA75 /* WelcomeHashView.swift in Sources */,
+				BA66506D2A255B00003DBA75 /* JailbreakView.swift in Sources */,
+				BA3F37052A1F58D7003925C5 /* NavigationModifier.swift in Sources */,
+				BA3F36F72A1E51C5003925C5 /* PresentingRouter.swift in Sources */,
+				BA3F369B2A1E381E003925C5 /* Persistence.swift in Sources */,
+				BA3F36A02A1E381E003925C5 /* HomeView.swift in Sources */,
+				BA66506B2A255B00003DBA75 /* JailbreakInteractor.swift in Sources */,
+				BA3F36D42A1E43A5003925C5 /* HashView.swift in Sources */,
+				BA6650732A255B00003DBA75 /* BatteryInteractor.swift in Sources */,
+				BA6650662A255B00003DBA75 /* WiFiViewModel.swift in Sources */,
+				BA6650392A24F795003DBA75 /* DoneHashView.swift in Sources */,
+				BA3F36D92A1E43C1003925C5 /* HashInteractor.swift in Sources */,
+				BA66506E2A255B00003DBA75 /* JailbreakViewModel.swift in Sources */,
+				BA3F37042A1F58D7003925C5 /* Router.swift in Sources */,
+				BA3F36CB2A1E3B1F003925C5 /* HomeInteractor.swift in Sources */,
+				BA66506C2A255B00003DBA75 /* JailbreakPresenter.swift in Sources */,
+				BA6650752A255B00003DBA75 /* BatteryView.swift in Sources */,
+				BA6650742A255B00003DBA75 /* BatteryPresenter.swift in Sources */,
+				BA3F36DD2A1E43E8003925C5 /* HomeViewModel.swift in Sources */,
+				BA6650642A255B00003DBA75 /* WiFiPresenter.swift in Sources */,
+				BA3F36D72A1E43B8003925C5 /* HashViewModel.swift in Sources */,
+				BA3F36DB2A1E43D1003925C5 /* HashPresenter.swift in Sources */,
+				BA3F36E12A1E44C2003925C5 /* UserModel.swift in Sources */,
+				BA66503B2A255964003DBA75 /* PrimaryButton.swift in Sources */,
+				BA6650762A255B00003DBA75 /* BatteryViewModel.swift in Sources */,
+				BA3F37032A1F58D7003925C5 /* SheetModifier.swift in Sources */,
+				BA3F369E2A1E381E003925C5 /* Raspberry.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3F36A72A1E3820003925C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3F36B02A1E3820003925C5 /* RaspberryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3F36B12A1E3820003925C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3F36BA2A1E3820003925C5 /* RaspberryUITests.swift in Sources */,
+				BA3F36BC2A1E3820003925C5 /* RaspberryUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA3F36AD2A1E3820003925C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA3F36942A1E381E003925C5 /* Raspberry */;
+			targetProxy = BA3F36AC2A1E3820003925C5 /* PBXContainerItemProxy */;
+		};
+		BA3F36B72A1E3820003925C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA3F36942A1E381E003925C5 /* Raspberry */;
+			targetProxy = BA3F36B62A1E3820003925C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BA3F36BD2A1E3820003925C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA3F36BE2A1E3820003925C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BA3F36C02A1E3820003925C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Raspberry/Raspberry.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Raspberry/Preview Content\"";
+				DEVELOPMENT_TEAM = 42S7J6AXED;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuzik.Raspberry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA3F36C12A1E3820003925C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Raspberry/Raspberry.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Raspberry/Preview Content\"";
+				DEVELOPMENT_TEAM = 42S7J6AXED;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuzik.Raspberry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA3F36C32A1E3820003925C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42S7J6AXED;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuzik.RaspberryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raspberry.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Raspberry";
+			};
+			name = Debug;
+		};
+		BA3F36C42A1E3820003925C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42S7J6AXED;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuzik.RaspberryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Raspberry.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Raspberry";
+			};
+			name = Release;
+		};
+		BA3F36C62A1E3820003925C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42S7J6AXED;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuzik.RaspberryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Raspberry;
+			};
+			name = Debug;
+		};
+		BA3F36C72A1E3820003925C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42S7J6AXED;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuzik.RaspberryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Raspberry;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA3F36902A1E381E003925C5 /* Build configuration list for PBXProject "Raspberry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3F36BD2A1E3820003925C5 /* Debug */,
+				BA3F36BE2A1E3820003925C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA3F36BF2A1E3820003925C5 /* Build configuration list for PBXNativeTarget "Raspberry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3F36C02A1E3820003925C5 /* Debug */,
+				BA3F36C12A1E3820003925C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA3F36C22A1E3820003925C5 /* Build configuration list for PBXNativeTarget "RaspberryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3F36C32A1E3820003925C5 /* Debug */,
+				BA3F36C42A1E3820003925C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA3F36C52A1E3820003925C5 /* Build configuration list for PBXNativeTarget "RaspberryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3F36C62A1E3820003925C5 /* Debug */,
+				BA3F36C72A1E3820003925C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA3F369C2A1E381E003925C5 /* Raspberry.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA3F369D2A1E381E003925C5 /* Raspberry.xcdatamodel */,
+			);
+			currentVersion = BA3F369D2A1E381E003925C5 /* Raspberry.xcdatamodel */;
+			path = Raspberry.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA3F368D2A1E381E003925C5 /* Project object */;
+}
