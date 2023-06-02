@@ -12,8 +12,7 @@ struct RaspberryApp: App {
     var body: some Scene {
         WindowGroup {
             let homeInteractor = HomeInteractor()
-            let homePresenter = HomePresenter()
-            let homeViewModel = HomeViewModel(interactor: homeInteractor, presenter: homePresenter)
+            let homeViewModel = HomeViewModel(interactor: homeInteractor)
 
             HomeView(router: MainRouter(isPresented: .constant(false)), viewModel: homeViewModel)
         }

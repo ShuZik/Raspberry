@@ -22,6 +22,9 @@ struct JailbreakView: View {
                 .fontWeight(.bold)
                 .multilineTextAlignment(.center)
                 .padding()
+            PrimaryButton(title: "Click", action: {
+                
+            })
             Spacer()
         }
     }
@@ -32,8 +35,7 @@ struct JailbreakView: View {
 struct JailbreakView_Previews: PreviewProvider {
     static var previews: some View {
         let interactor = JailbreakInteractor()
-        let presenter = JailbreakPresenter()
-        let viewModel = JailbreakViewModel(interactor: interactor, presenter: presenter)
+        let viewModel = JailbreakViewModel(interactor: interactor)
         JailbreakView(viewModel: viewModel)
     }
 }

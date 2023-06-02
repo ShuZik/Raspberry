@@ -8,31 +8,34 @@
 import SwiftUI
 
 struct WiFiView: View {
-    @StateObject private var viewModel: WiFiViewModel
+    @ObservedObject private var viewModel: WiFiViewModel
     
     init(viewModel: WiFiViewModel) {
-        _viewModel = StateObject(wrappedValue: viewModel)
+        self.viewModel = viewModel
     }
     
     var body: some View {
         VStack {
-            Spacer()
-            Text("WiFi")
-                .font(.largeTitle)
-                .fontWeight(.bold)
-                .multilineTextAlignment(.center)
+            Text(viewModel.wifiName)
                 .padding()
-            Spacer()
+            
+            Text(viewModel.wifiSafety)
+                .padding()
+            
+            Button("Check WiFi Safety") {
+                viewModel.checkWiFiSafety()
+            }
+            .padding()
         }
     }
 }
 
-
 struct WiFiView_Previews: PreviewProvider {
     static var previews: some View {
         let interactor = WiFiInteractor()
-        let presenter = WiFiPresenter()
-        let viewModel = WiFiViewModel(interactor: interactor, presenter: presenter)
-        WiFiView(viewModel: viewModel)
+        let viewModel = WiFiViewModel(interactor: interactor)
+        let wifiView = WiFiView(viewModel: viewModel)
+        
+        return wifiView
     }
 }

@@ -3,4 +3,358 @@
    uuid = "09E8DC5E-A739-41B9-9A37-22DFCCB47959"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F83D975A-BB48-4171-9158-EFA34D16EF75"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Raspberry/WiFi/WiFiInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "checkWiFiSafety(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F56E4FC9-DAB4-4BCD-BA2F-BAA3C3BCDDEB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Raspberry/WiFi/WiFiInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "checkWiFiSafety(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F56E4FC9-DAB4-4BCD-BA2F-BAA3C3BCDDEB - 7cfced404f50f185"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Raspberry.WiFiInteractor.checkWiFiSafety(completion: (Raspberry.WiFiSecurityLevel) -&gt; ()) -&gt; ()"
+                  moduleName = "Raspberry"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shuzik/Developer/Raspberry/Raspberry/WiFi/WiFiInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "2716">
+               </Location>
+               <Location
+                  uuid = "F56E4FC9-DAB4-4BCD-BA2F-BAA3C3BCDDEB - 7cfced404f50ecce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Raspberry.WiFiInteractor.checkWiFiSafety(completion: (Raspberry.WiFiSecurityLevel) -&gt; ()) -&gt; ()"
+                  moduleName = "Raspberry"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shuzik/Developer/Raspberry/Raspberry/WiFi/WiFiInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74DD1F47-1A66-44C0-8725-F9FF986D4E82"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Raspberry/WiFi/WiFiInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "checkWiFiSafety(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "74DD1F47-1A66-44C0-8725-F9FF986D4E82 - 7cfced404f50f128"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Raspberry.WiFiInteractor.checkWiFiSafety(completion: (Raspberry.WiFiSecurityLevel) -&gt; ()) -&gt; ()"
+                  moduleName = "Raspberry"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shuzik/Developer/Raspberry/Raspberry/WiFi/WiFiInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "2596">
+               </Location>
+               <Location
+                  uuid = "74DD1F47-1A66-44C0-8725-F9FF986D4E82 - 7cfced404f50ecce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Raspberry.WiFiInteractor.checkWiFiSafety(completion: (Raspberry.WiFiSecurityLevel) -&gt; ()) -&gt; ()"
+                  moduleName = "Raspberry"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shuzik/Developer/Raspberry/Raspberry/WiFi/WiFiInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "129655FA-B03A-4F36-89E8-75A9C96C3D0D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Raspberry/WiFi/WiFiInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "checkWiFiSafety(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1DB5FF30-D131-4ED9-BF4D-310475B6378E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Raspberry/WiFi/WiFiInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "checkWiFiSafety(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A235C953-D28A-4EB0-8BC9-B319D3F400BA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Raspberry/WiFi/WiFiInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "82"
+            endingLineNumber = "82"
+            landmarkName = "checkWiFiSafety(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF31E539-CF17-4F6C-9660-280B9D37D3AE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Raspberry/WiFi/WiFiInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "checkWiFiSafety(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BF31E539-CF17-4F6C-9660-280B9D37D3AE - 7cfced404f50f08d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Raspberry.WiFiInteractor.checkWiFiSafety(completion: (Raspberry.WiFiSecurityLevel) -&gt; ()) -&gt; ()"
+                  moduleName = "Raspberry"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shuzik/Developer/Raspberry/Raspberry/WiFi/WiFiInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "2492">
+               </Location>
+               <Location
+                  uuid = "BF31E539-CF17-4F6C-9660-280B9D37D3AE - 7cfced404f50ecce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Raspberry.WiFiInteractor.checkWiFiSafety(completion: (Raspberry.WiFiSecurityLevel) -&gt; ()) -&gt; ()"
+                  moduleName = "Raspberry"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shuzik/Developer/Raspberry/Raspberry/WiFi/WiFiInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "065F3312-1638-49BC-B628-D960D188B961"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Raspberry/WiFi/WiFiInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "checkWiFiSafety(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "065F3312-1638-49BC-B628-D960D188B961 - 7cfced404f50f48a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Raspberry.WiFiInteractor.checkWiFiSafety(completion: (Raspberry.WiFiSecurityLevel) -&gt; ()) -&gt; ()"
+                  moduleName = "Raspberry"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shuzik/Developer/Raspberry/Raspberry/WiFi/WiFiInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "065F3312-1638-49BC-B628-D960D188B961 - 7cfced404f50ecce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Raspberry.WiFiInteractor.checkWiFiSafety(completion: (Raspberry.WiFiSecurityLevel) -&gt; ()) -&gt; ()"
+                  moduleName = "Raspberry"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shuzik/Developer/Raspberry/Raspberry/WiFi/WiFiInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "85"
+                  endingLineNumber = "85"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E62655A0-2CCE-4097-89C0-7C9C757D2D9E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Raspberry/WiFi/WiFiViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "requestWiFiPermission()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E62655A0-2CCE-4097-89C0-7C9C757D2D9E - 118ca24fab55a8e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Swift.String&gt;) -&gt; () in Raspberry.WiFiViewModel.requestWiFiPermission() -&gt; ()"
+                  moduleName = "Raspberry"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shuzik/Developer/Raspberry/Raspberry/WiFi/WiFiViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "E62655A0-2CCE-4097-89C0-7C9C757D2D9E - 118ca24fab55a967"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Swift.String&gt;) -&gt; () in Raspberry.WiFiViewModel.requestWiFiPermission() -&gt; ()"
+                  moduleName = "Raspberry"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shuzik/Developer/Raspberry/Raspberry/WiFi/WiFiViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "320">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F544EEF-50E1-435E-A6F3-2A40B4FA30FB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Raspberry/WiFi/WiFiViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "requestWiFiPermission()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0F544EEF-50E1-435E-A6F3-2A40B4FA30FB - 118ca24fab55a8e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Swift.String&gt;) -&gt; () in Raspberry.WiFiViewModel.requestWiFiPermission() -&gt; ()"
+                  moduleName = "Raspberry"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shuzik/Developer/Raspberry/Raspberry/WiFi/WiFiViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "0F544EEF-50E1-435E-A6F3-2A40B4FA30FB - fcd87edf93132ecd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;Swift.String&gt;) -&gt; () in closure #1 (Swift.Array&lt;Swift.String&gt;) -&gt; () in Raspberry.WiFiViewModel.requestWiFiPermission() -&gt; ()"
+                  moduleName = "Raspberry"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shuzik/Developer/Raspberry/Raspberry/WiFi/WiFiViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

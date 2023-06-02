@@ -10,14 +10,13 @@ import SwiftUI
 final class HashViewModel: ObservableObject {
     @Published var isCheckingHash = false
     @Published var isHashDone = false
+    @Published var isHashSave = false
     @Published var buttonTitle = "Check Hash"
 
     private let interactor: HashInteractor
-    private let presenter: HashPresenter
 
-    init(interactor: HashInteractor, presenter: HashPresenter) {
+    init(interactor: HashInteractor) {
         self.interactor = interactor
-        self.presenter = presenter
     }
 
     func checkHash() {

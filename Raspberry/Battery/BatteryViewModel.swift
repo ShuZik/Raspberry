@@ -13,10 +13,8 @@ final class BatteryViewModel: ObservableObject {
     @Published var buttonTitle = "Check Battery"
 
     private let interactor: BatteryInteractor
-    private let presenter: BatteryPresenter
 
-    init(interactor: BatteryInteractor, presenter: BatteryPresenter) {
+    init(interactor: BatteryInteractor) {
         self.interactor = interactor
-        self.presenter = presenter
     }
 }

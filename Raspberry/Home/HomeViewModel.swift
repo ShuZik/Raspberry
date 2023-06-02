@@ -7,18 +7,12 @@
 
 import SwiftUI
 
-class HomeViewModel: ObservableObject {
+final class HomeViewModel: ObservableObject {
     private let interactor: HomeInteractor
-    private let presenter: HomePresenter
     
     @Published var text: String = "Hello"
     
-    init(interactor: HomeInteractor, presenter: HomePresenter) {
+    init(interactor: HomeInteractor) {
         self.interactor = interactor
-        self.presenter = presenter
-    }
-    
-    func updateText(_ newText: String) {
-        text = newText
     }
 }

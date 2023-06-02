@@ -13,10 +13,8 @@ final class JailbreakViewModel: ObservableObject {
     @Published var buttonTitle = "Check Jailbreak"
 
     private let interactor: JailbreakInteractor
-    private let presenter: JailbreakPresenter
 
-    init(interactor: JailbreakInteractor, presenter: JailbreakPresenter) {
+    init(interactor: JailbreakInteractor) {
         self.interactor = interactor
-        self.presenter = presenter
     }
 }

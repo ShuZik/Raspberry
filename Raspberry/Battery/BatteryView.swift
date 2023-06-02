@@ -31,8 +31,7 @@ struct BatteryView: View {
 struct BatteryView_Previews: PreviewProvider {
     static var previews: some View {
         let interactor = BatteryInteractor()
-        let presenter = BatteryPresenter()
-        let viewModel = BatteryViewModel(interactor: interactor, presenter: presenter)
+        let viewModel = BatteryViewModel(interactor: interactor)
         BatteryView(viewModel: viewModel)
     }
 }

@@ -45,8 +45,7 @@ struct HashView: View {
 struct HashView_Previews: PreviewProvider {
     static var previews: some View {
         let interactor = HashInteractor()
-        let presenter = HashPresenter()
-        let viewModel = HashViewModel(interactor: interactor, presenter: presenter)
+        let viewModel = HashViewModel(interactor: interactor)
         HashView(viewModel: viewModel)
     }
 }

@@ -7,10 +7,6 @@
 
 import SwiftUI
 
-protocol HomeInteractorProtocol {
-    
-}
-
-final class HomeInteractor: HomeInteractorProtocol {
-
+final class HomeInteractor {
+    // Do nothing now
 }

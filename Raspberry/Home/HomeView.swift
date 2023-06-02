@@ -62,8 +62,7 @@ struct HomeView<R: MainRouterProtocol>: View {
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         let homeInteractor = HomeInteractor()
-        let homePresenter = HomePresenter()
-        let homeViewModel = HomeViewModel(interactor: homeInteractor, presenter: homePresenter)
+        let homeViewModel = HomeViewModel(interactor: homeInteractor)
         
         HomeView(router: MainRouter(isPresented: .constant(false)), viewModel: homeViewModel)
     }

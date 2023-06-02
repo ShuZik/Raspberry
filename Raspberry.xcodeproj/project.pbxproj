@@ -17,11 +17,9 @@
 		BA3F36BA2A1E3820003925C5 /* RaspberryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36B92A1E3820003925C5 /* RaspberryUITests.swift */; };
 		BA3F36BC2A1E3820003925C5 /* RaspberryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36BB2A1E3820003925C5 /* RaspberryUITestsLaunchTests.swift */; };
 		BA3F36CB2A1E3B1F003925C5 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36CA2A1E3B1F003925C5 /* HomeInteractor.swift */; };
-		BA3F36CD2A1E3B2E003925C5 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36CC2A1E3B2E003925C5 /* HomePresenter.swift */; };
 		BA3F36D42A1E43A5003925C5 /* HashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36D32A1E43A5003925C5 /* HashView.swift */; };
 		BA3F36D72A1E43B8003925C5 /* HashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36D62A1E43B8003925C5 /* HashViewModel.swift */; };
 		BA3F36D92A1E43C1003925C5 /* HashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36D82A1E43C1003925C5 /* HashInteractor.swift */; };
-		BA3F36DB2A1E43D1003925C5 /* HashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36DA2A1E43D1003925C5 /* HashPresenter.swift */; };
 		BA3F36DD2A1E43E8003925C5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36DC2A1E43E8003925C5 /* HomeViewModel.swift */; };
 		BA3F36E12A1E44C2003925C5 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36E02A1E44C2003925C5 /* UserModel.swift */; };
 		BA3F36F72A1E51C5003925C5 /* PresentingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3F36F62A1E51C5003925C5 /* PresentingRouter.swift */; };
@@ -34,17 +32,15 @@
 		BA6650392A24F795003DBA75 /* DoneHashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6650382A24F795003DBA75 /* DoneHashView.swift */; };
 		BA66503B2A255964003DBA75 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66503A2A255964003DBA75 /* PrimaryButton.swift */; };
 		BA6650632A255B00003DBA75 /* WiFiInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6650462A255AFF003DBA75 /* WiFiInteractor.swift */; };
-		BA6650642A255B00003DBA75 /* WiFiPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6650472A255AFF003DBA75 /* WiFiPresenter.swift */; };
 		BA6650652A255B00003DBA75 /* WiFiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6650482A255AFF003DBA75 /* WiFiView.swift */; };
 		BA6650662A255B00003DBA75 /* WiFiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6650492A255AFF003DBA75 /* WiFiViewModel.swift */; };
 		BA66506B2A255B00003DBA75 /* JailbreakInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6650502A255AFF003DBA75 /* JailbreakInteractor.swift */; };
-		BA66506C2A255B00003DBA75 /* JailbreakPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6650512A255AFF003DBA75 /* JailbreakPresenter.swift */; };
 		BA66506D2A255B00003DBA75 /* JailbreakView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6650522A255AFF003DBA75 /* JailbreakView.swift */; };
 		BA66506E2A255B00003DBA75 /* JailbreakViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6650532A255AFF003DBA75 /* JailbreakViewModel.swift */; };
 		BA6650732A255B00003DBA75 /* BatteryInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66505A2A255B00003DBA75 /* BatteryInteractor.swift */; };
-		BA6650742A255B00003DBA75 /* BatteryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66505B2A255B00003DBA75 /* BatteryPresenter.swift */; };
 		BA6650752A255B00003DBA75 /* BatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66505C2A255B00003DBA75 /* BatteryView.swift */; };
 		BA6650762A255B00003DBA75 /* BatteryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66505D2A255B00003DBA75 /* BatteryViewModel.swift */; };
+		BA6650802A264565003DBA75 /* WiFiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA66507F2A264565003DBA75 /* WiFiModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,11 +75,9 @@
 		BA3F36B92A1E3820003925C5 /* RaspberryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaspberryUITests.swift; sourceTree = "<group>"; };
 		BA3F36BB2A1E3820003925C5 /* RaspberryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaspberryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BA3F36CA2A1E3B1F003925C5 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
-		BA3F36CC2A1E3B2E003925C5 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		BA3F36D32A1E43A5003925C5 /* HashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashView.swift; sourceTree = "<group>"; };
 		BA3F36D62A1E43B8003925C5 /* HashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashViewModel.swift; sourceTree = "<group>"; };
 		BA3F36D82A1E43C1003925C5 /* HashInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashInteractor.swift; sourceTree = "<group>"; };
-		BA3F36DA2A1E43D1003925C5 /* HashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashPresenter.swift; sourceTree = "<group>"; };
 		BA3F36DC2A1E43E8003925C5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		BA3F36E02A1E44C2003925C5 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		BA3F36F62A1E51C5003925C5 /* PresentingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentingRouter.swift; sourceTree = "<group>"; };
@@ -96,17 +90,16 @@
 		BA6650382A24F795003DBA75 /* DoneHashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneHashView.swift; sourceTree = "<group>"; };
 		BA66503A2A255964003DBA75 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		BA6650462A255AFF003DBA75 /* WiFiInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WiFiInteractor.swift; sourceTree = "<group>"; };
-		BA6650472A255AFF003DBA75 /* WiFiPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WiFiPresenter.swift; sourceTree = "<group>"; };
 		BA6650482A255AFF003DBA75 /* WiFiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WiFiView.swift; sourceTree = "<group>"; };
 		BA6650492A255AFF003DBA75 /* WiFiViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WiFiViewModel.swift; sourceTree = "<group>"; };
 		BA6650502A255AFF003DBA75 /* JailbreakInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JailbreakInteractor.swift; sourceTree = "<group>"; };
-		BA6650512A255AFF003DBA75 /* JailbreakPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JailbreakPresenter.swift; sourceTree = "<group>"; };
 		BA6650522A255AFF003DBA75 /* JailbreakView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JailbreakView.swift; sourceTree = "<group>"; };
 		BA6650532A255AFF003DBA75 /* JailbreakViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JailbreakViewModel.swift; sourceTree = "<group>"; };
 		BA66505A2A255B00003DBA75 /* BatteryInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryInteractor.swift; sourceTree = "<group>"; };
-		BA66505B2A255B00003DBA75 /* BatteryPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryPresenter.swift; sourceTree = "<group>"; };
 		BA66505C2A255B00003DBA75 /* BatteryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryView.swift; sourceTree = "<group>"; };
 		BA66505D2A255B00003DBA75 /* BatteryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BatteryViewModel.swift; sourceTree = "<group>"; };
+		BA66507F2A264565003DBA75 /* WiFiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiModel.swift; sourceTree = "<group>"; };
+		BA6650812A2755E0003DBA75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +150,7 @@
 		BA3F36972A1E381E003925C5 /* Raspberry */ = {
 			isa = PBXGroup;
 			children = (
+				BA6650812A2755E0003DBA75 /* Info.plist */,
 				BA3F36982A1E381E003925C5 /* RaspberryApp.swift */,
 				BA3F369A2A1E381E003925C5 /* Persistence.swift */,
 				BA3F36F62A1E51C5003925C5 /* PresentingRouter.swift */,
@@ -207,7 +201,6 @@
 				BA3F369F2A1E381E003925C5 /* HomeView.swift */,
 				BA3F36DC2A1E43E8003925C5 /* HomeViewModel.swift */,
 				BA3F36CA2A1E3B1F003925C5 /* HomeInteractor.swift */,
-				BA3F36CC2A1E3B2E003925C5 /* HomePresenter.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -218,7 +211,6 @@
 				BA3F36D32A1E43A5003925C5 /* HashView.swift */,
 				BA3F36D62A1E43B8003925C5 /* HashViewModel.swift */,
 				BA3F36D82A1E43C1003925C5 /* HashInteractor.swift */,
-				BA3F36DA2A1E43D1003925C5 /* HashPresenter.swift */,
 				BA6650332A20C213003DBA75 /* Views */,
 			);
 			path = Hash;
@@ -273,9 +265,9 @@
 			isa = PBXGroup;
 			children = (
 				BA6650482A255AFF003DBA75 /* WiFiView.swift */,
+				BA66507F2A264565003DBA75 /* WiFiModel.swift */,
 				BA6650492A255AFF003DBA75 /* WiFiViewModel.swift */,
 				BA6650462A255AFF003DBA75 /* WiFiInteractor.swift */,
-				BA6650472A255AFF003DBA75 /* WiFiPresenter.swift */,
 			);
 			path = WiFi;
 			sourceTree = "<group>";
@@ -286,7 +278,6 @@
 				BA6650522A255AFF003DBA75 /* JailbreakView.swift */,
 				BA6650532A255AFF003DBA75 /* JailbreakViewModel.swift */,
 				BA6650502A255AFF003DBA75 /* JailbreakInteractor.swift */,
-				BA6650512A255AFF003DBA75 /* JailbreakPresenter.swift */,
 			);
 			path = Jailbreak;
 			sourceTree = "<group>";
@@ -297,7 +288,6 @@
 				BA66505C2A255B00003DBA75 /* BatteryView.swift */,
 				BA66505D2A255B00003DBA75 /* BatteryViewModel.swift */,
 				BA66505A2A255B00003DBA75 /* BatteryInteractor.swift */,
-				BA66505B2A255B00003DBA75 /* BatteryPresenter.swift */,
 			);
 			path = Battery;
 			sourceTree = "<group>";
@@ -434,8 +424,8 @@
 			files = (
 				BA6650652A255B00003DBA75 /* WiFiView.swift in Sources */,
 				BA6650372A24E4AA003DBA75 /* BlockHashView.swift in Sources */,
-				BA3F36CD2A1E3B2E003925C5 /* HomePresenter.swift in Sources */,
 				BA6650632A255B00003DBA75 /* WiFiInteractor.swift in Sources */,
+				BA6650802A264565003DBA75 /* WiFiModel.swift in Sources */,
 				BA6650352A20C2E2003DBA75 /* ProgressHashView.swift in Sources */,
 				BA3F36992A1E381E003925C5 /* RaspberryApp.swift in Sources */,
 				BA6650322A20C1DA003DBA75 /* WelcomeHashView.swift in Sources */,
@@ -453,13 +443,9 @@
 				BA66506E2A255B00003DBA75 /* JailbreakViewModel.swift in Sources */,
 				BA3F37042A1F58D7003925C5 /* Router.swift in Sources */,
 				BA3F36CB2A1E3B1F003925C5 /* HomeInteractor.swift in Sources */,
-				BA66506C2A255B00003DBA75 /* JailbreakPresenter.swift in Sources */,
 				BA6650752A255B00003DBA75 /* BatteryView.swift in Sources */,
-				BA6650742A255B00003DBA75 /* BatteryPresenter.swift in Sources */,
 				BA3F36DD2A1E43E8003925C5 /* HomeViewModel.swift in Sources */,
-				BA6650642A255B00003DBA75 /* WiFiPresenter.swift in Sources */,
 				BA3F36D72A1E43B8003925C5 /* HashViewModel.swift in Sources */,
-				BA3F36DB2A1E43D1003925C5 /* HashPresenter.swift in Sources */,
 				BA3F36E12A1E44C2003925C5 /* UserModel.swift in Sources */,
 				BA66503B2A255964003DBA75 /* PrimaryButton.swift in Sources */,
 				BA6650762A255B00003DBA75 /* BatteryViewModel.swift in Sources */,
@@ -621,8 +607,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Raspberry/Preview Content\"";
 				DEVELOPMENT_TEAM = 42S7J6AXED;
 				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Raspberry/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -660,8 +648,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Raspberry/Preview Content\"";
 				DEVELOPMENT_TEAM = 42S7J6AXED;
 				ENABLE_HARDENED_RUNTIME = YES;
+				"ENABLE_HARDENED_RUNTIME[sdk=macosx*]" = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Raspberry/Info.plist;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
